@@ -1,4 +1,4 @@
-package methods.authorization.authorization;/*
+package methods.authorization;/*
 @Author: jkrolikowski
 @Date: 10/10/2023
 */
@@ -9,5 +9,8 @@ import lombok.Data;
 @Builder
 @Data
 public class AuthorizationTO {
+
+    String email;
+    String password;
 
 }

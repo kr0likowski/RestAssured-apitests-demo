@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8bbf471a-6d95-4c51-8cc7-08b9f5a1c3ef" name="Changes" comment="Method structure and lombok added">
+    <list default="true" id="8bbf471a-6d95-4c51-8cc7-08b9f5a1c3ef" name="Changes" comment="Transfer objects and method classes moved to test package">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/methods/products/ProductTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/methods/products/Products.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ProductsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ProductsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/methods/authorization/Authorization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/authorization/Authorization.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/methods/authorization/AuthorizationTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/authorization/AuthorizationTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/methods/products/ProductTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/products/ProductTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/methods/products/Products.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/products/Products.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +52,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/jkrolikowski/Desktop/rest-assured/RestAssured-apitests-demo/RestAssured-apitests-demo",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -57,7 +60,7 @@
   }
 }]]></component>
   <component name="RunManager">
-    <configuration name="restassured-apitests-demo [mvn,test]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+    <configuration name="restassured-apitests-demo [test]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
         <option name="myRunnerSettings" />
@@ -68,7 +71,6 @@
             </option>
             <option name="goals">
               <list>
-                <option value="mvn" />
                 <option value="test" />
               </list>
             </option>
@@ -114,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696963187927</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Transfer objects and method classes moved to test package">
+      <created>1696963710106</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1696963710106</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -144,6 +153,7 @@
     <MESSAGE value="Project init" />
     <MESSAGE value="TestNG and RestAssured added" />
     <MESSAGE value="Method structure and lombok added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Method structure and lombok added" />
+    <MESSAGE value="Transfer objects and method classes moved to test package" />
+    <option name="LAST_COMMIT_MESSAGE" value="Transfer objects and method classes moved to test package" />
   </component>
 </project>
