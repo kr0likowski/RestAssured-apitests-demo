@@ -1,3 +1,4 @@
+package tests;
 /*
 @Author: jkrolikowski
 @Date: 10/10/2023
@@ -22,7 +23,9 @@ public class ProductsTest {
     }
     @Test
     void Test(){
-        Authorization.authorize(authTO, baseURL);
+
+        String authToken = Authorization.authorize(authTO, baseURL);
+
     }
 
     @AfterTest()
