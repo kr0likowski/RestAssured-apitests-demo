@@ -12,7 +12,7 @@ import io.restassured.response.Response;
 import static org.hamcrest.Matchers.*;
 
 public class Authorization {
-    public static String authorize (AuthorizationTO authTO, String baseURL){
+    public static String authorize (AuthorizationTO authTO){
 
         JsonObject authorizeJSON = new JsonObject();
 
@@ -25,7 +25,7 @@ public class Authorization {
                     .body(authorizeJSON.toString())
                     .log().all()
                 .when()
-                    .post(baseURL+"api/v1/auth/login");
+                    .post("api/v1/auth/login");
 
 
         response.then()
@@ -36,7 +36,6 @@ public class Authorization {
         String responseBody = response.getBody().asString();
         JsonObject jsonObject = JsonParser.parseString(responseBody).getAsJsonObject();
 
-        System.out.print(responseBody);
         return jsonObject.get("access_token").getAsString();
 
     }

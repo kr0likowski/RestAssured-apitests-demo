@@ -1,12 +1,14 @@
-package tests;
+package tests.producttests;
 /*
 @Author: jkrolikowski
 @Date: 10/10/2023
 */
 
+import io.restassured.RestAssured;
 import methods.authorization.Authorization;
 import methods.authorization.AuthorizationTO;
 import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -17,6 +19,12 @@ public class ProductsTest {
     protected String password = System.getProperty("password","changeme");
 
     private AuthorizationTO authTO;
+
+    @BeforeSuite
+    void BeforeSuite(){
+        RestAssured.baseURI = baseURL;
+    }
+
     @BeforeTest
     void BeforeTest(){
         buildTransferObjects();
@@ -24,7 +32,7 @@ public class ProductsTest {
     @Test
     void Test(){
 
-        String authToken = Authorization.authorize(authTO, baseURL);
+        String authToken = Authorization.authorize(authTO);
 
     }
 

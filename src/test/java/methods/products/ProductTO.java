@@ -11,13 +11,15 @@ import lombok.Data;
 @Builder
 public class ProductTO {
 
+    int id;
+
     String title;
 
     String price;
 
     String description;
 
-    String categoryId;
+   int categoryId;
 
     String imgUrl;
 

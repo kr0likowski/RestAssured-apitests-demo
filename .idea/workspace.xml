@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8bbf471a-6d95-4c51-8cc7-08b9f5a1c3ef" name="Changes" comment="Authorization added to test">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+    <list default="true" id="8bbf471a-6d95-4c51-8cc7-08b9f5a1c3ef" name="Changes" comment="productTO">
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/producttests/suite.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ProductsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ProductsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/methods/authorization/Authorization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/authorization/Authorization.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/methods/products/ProductTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/products/ProductTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/methods/products/Products.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/products/Products.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ProductsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/producttests/ProductsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +54,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_directory_selection": "C:/Users/jkrolikowski/Desktop/rest-assured/RestAssured-apitests-demo/RestAssured-apitests-demo/src/test/java/tests",
-    "last_opened_file_path": "C:/Users/jkrolikowski/Desktop/rest-assured/RestAssured-apitests-demo/RestAssured-apitests-demo",
+    "last_opened_file_path": "C:/Users/jkrolikowski/Desktop/rest-assured/RestAssured-apitests-demo/RestAssured-apitests-demo/src/test/java/tests/producttests/suite.xml",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -61,10 +63,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="tests.producttests" />
       <recent name="tests" />
     </key>
   </component>
-  <component name="RunManager" selected="Maven.restassured-apitests-demo [test]">
+  <component name="RunManager" selected="TestNG.C:/Users/jkrolikowski/Desktop/rest-assured/RestAssured-apitests-demo/RestAssured-apitests-demo/src/test/java/tests/producttests/suite.xml">
     <configuration name="restassured-apitests-demo [test]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -90,16 +93,16 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
-    <configuration name="ProductsTest.Test" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/jkrolikowski/Desktop/rest-assured/RestAssured-apitests-demo/RestAssured-apitests-demo/src/test/java/tests/producttests/suite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestAssured-apitests-demo" />
       <shortenClasspath name="NONE" />
       <useClassPathOnly />
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.ProductsTest" />
-      <option name="METHOD_NAME" value="Test" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/tests/producttests/suite.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
       <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <option name="PARAMETERS" value="" />
       <option name="OUTPUT_DIRECTORY" value="" />
       <option name="TEST_SEARCH_SCOPE">
@@ -114,11 +117,11 @@
     </configuration>
     <list>
       <item itemvalue="Maven.restassured-apitests-demo [test]" />
-      <item itemvalue="TestNG.ProductsTest.Test" />
+      <item itemvalue="TestNG.C:/Users/jkrolikowski/Desktop/rest-assured/RestAssured-apitests-demo/RestAssured-apitests-demo/src/test/java/tests/producttests/suite.xml" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.ProductsTest.Test" />
+        <item itemvalue="TestNG.C:/Users/jkrolikowski/Desktop/rest-assured/RestAssured-apitests-demo/RestAssured-apitests-demo/src/test/java/tests/producttests/suite.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696967328444</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="productTO">
+      <created>1696967876294</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1696967876294</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -206,6 +216,7 @@
     <MESSAGE value="Transfer objects and method classes moved to test package" />
     <MESSAGE value="Basic functionality of authorization" />
     <MESSAGE value="Authorization added to test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Authorization added to test" />
+    <MESSAGE value="productTO" />
+    <option name="LAST_COMMIT_MESSAGE" value="productTO" />
   </component>
 </project>
