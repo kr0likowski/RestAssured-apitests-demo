@@ -3,9 +3,12 @@
 @Date: 10/10/2023
 */
 
-import io.restassured.RestAssured;
-import io.restassured.response.Response;
-import methods.products.Products;
+import org.testng.annotations.Test;
 
 public class ProductsTest {
+
+    @Test
+    void Test(){
+
+    }
 }

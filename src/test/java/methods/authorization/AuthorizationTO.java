@@ -1,4 +1,4 @@
-package methods.products;/*
+package methods.authorization.authorization;/*
 @Author: jkrolikowski
 @Date: 10/10/2023
 */
@@ -6,8 +6,8 @@ package methods.products;/*
 import lombok.Builder;
 import lombok.Data;
 
-@Data
 @Builder
-public class ProductTO {
+@Data
+public class AuthorizationTO {
 
 }
