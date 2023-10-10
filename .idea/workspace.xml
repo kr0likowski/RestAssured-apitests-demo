@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8bbf471a-6d95-4c51-8cc7-08b9f5a1c3ef" name="Changes" comment="Transfer objects and method classes moved to test package">
+    <list default="true" id="8bbf471a-6d95-4c51-8cc7-08b9f5a1c3ef" name="Changes" comment="Basic functionality of authorization">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ProductsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ProductsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/methods/authorization/Authorization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/authorization/Authorization.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/methods/authorization/AuthorizationTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/authorization/AuthorizationTO.java" afterDir="false" />
@@ -59,7 +60,7 @@
     "settings.editor.selected.configurable": "fileTemplates"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.ProductsTest.Test">
     <configuration name="restassured-apitests-demo [test]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -85,6 +86,27 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
+    <configuration name="ProductsTest.Test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssured-apitests-demo" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ProductsTest" />
+      <option name="METHOD_NAME" value="Test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Maven.restassured-apitests-demo [test]" />
+      <item itemvalue="TestNG.ProductsTest.Test" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.ProductsTest.Test" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -123,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696963710106</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Basic functionality of authorization">
+      <created>1696964875876</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1696964875876</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -154,6 +183,7 @@
     <MESSAGE value="TestNG and RestAssured added" />
     <MESSAGE value="Method structure and lombok added" />
     <MESSAGE value="Transfer objects and method classes moved to test package" />
-    <option name="LAST_COMMIT_MESSAGE" value="Transfer objects and method classes moved to test package" />
+    <MESSAGE value="Basic functionality of authorization" />
+    <option name="LAST_COMMIT_MESSAGE" value="Basic functionality of authorization" />
   </component>
 </project>

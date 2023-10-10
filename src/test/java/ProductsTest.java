@@ -11,9 +11,9 @@ import org.testng.annotations.Test;
 
 public class ProductsTest {
 
-    protected String baseURL = "";
-    protected String email = System.getProperty("email","defaultMail");
-    protected String password = System.getProperty("password","defaultPassword");
+    protected String baseURL = System.getProperty("baseURL","https://api.escuelajs.co/");
+    protected String email = System.getProperty("email","john@mail.com");
+    protected String password = System.getProperty("password","changeme");
 
     private AuthorizationTO authTO;
     @BeforeTest

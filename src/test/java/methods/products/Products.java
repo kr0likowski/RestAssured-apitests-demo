@@ -1,4 +1,5 @@
-package methods.products;/*
+package methods.products;
+/*
 @Author: jkrolikowski
 @Date: 10/10/2023
 */
