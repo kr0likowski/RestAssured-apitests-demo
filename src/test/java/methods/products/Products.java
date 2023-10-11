@@ -31,7 +31,7 @@ public class Products {
 
     }
 
-    public static String createProduct(ProductTO productTO){
+    public static String createProduct(ProductTO productTO, String token){
 
         JsonObject productJSON = new JsonObject();
 
@@ -43,6 +43,7 @@ public class Products {
 
         Response response = RestAssured
                 .given()
+                    .header("Authorization", "Bearer " + token)
                     .contentType(ContentType.JSON)
                     .body(productJSON.toString())
                     .log().all()
@@ -60,7 +61,7 @@ public class Products {
         return jsonObject.get("id").getAsString();
     }
 
-    public static void updateProductTitle(String id, String title){
+    public static void updateProductTitle(String id, String title, String token){
 
         JsonObject updateProductJSON = new JsonObject();
 
@@ -68,6 +69,7 @@ public class Products {
 
         Response response = RestAssured
                 .given()
+                    .header("Authorization", "Bearer " + token)
                     .contentType(ContentType.JSON)
                     .body(updateProductJSON.toString())
                     .log().all()
@@ -80,10 +82,11 @@ public class Products {
 
     }
 
-    public static void deleteProduct(String id){
+    public static void deleteProduct(String id, String token){
 
         Response response = RestAssured
                 .given()
+                    .header("Authorization", "Bearer " + token)
                     .contentType(ContentType.JSON)
                     .log().all()
                     .when()
