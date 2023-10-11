@@ -138,4 +138,17 @@ public class Products {
 
     }
 
+    public static void getNonExistingProduct(int id, String token){
+        Response response = RestAssured
+                .given()
+                .header("Authorization", "Bearer " + token)
+                .get("api/v1/products/"+id);
+
+        response.then()
+                .statusCode(400);
+
+        String responseBody = response.getBody().asString();
+
+    }
+
 }
