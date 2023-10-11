@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8bbf471a-6d95-4c51-8cc7-08b9f5a1c3ef" name="Changes" comment="Products methods added">
+    <list default="true" id="8bbf471a-6d95-4c51-8cc7-08b9f5a1c3ef" name="Changes" comment="Authorization header in product methods">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/methods/products/ProductTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/products/ProductTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/methods/products/Products.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/products/Products.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/producttests/ProductsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/producttests/ProductsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +65,7 @@
       <recent name="tests" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/jkrolikowski/Desktop/rest-assured/RestAssured-apitests-demo/RestAssured-apitests-demo/src/test/java/tests/producttests/suite.xml">
+  <component name="RunManager" selected="Maven.restassured-apitests-demo [test]">
     <configuration name="restassured-apitests-demo [test]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -186,7 +188,21 @@
       <option name="project" value="LOCAL" />
       <updated>1696970049605</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Authorization header in product methods">
+      <created>1697030375234</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1697030375234</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Authorization header in product methods">
+      <created>1697030405930</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1697030405930</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -221,6 +237,7 @@
     <MESSAGE value="Authorization added to test" />
     <MESSAGE value="productTO" />
     <MESSAGE value="Products methods added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Products methods added" />
+    <MESSAGE value="Authorization header in product methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="Authorization header in product methods" />
   </component>
 </project>

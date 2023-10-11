@@ -21,6 +21,6 @@ public class ProductTO {
 
    int categoryId;
 
-    String imgUrl;
+    String[] imgUrl;
 
 }

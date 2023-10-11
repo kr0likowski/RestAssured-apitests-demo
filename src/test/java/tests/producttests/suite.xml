@@ -1,7 +1,7 @@
 <suite name="MyTestSuite">
     <test name="Test1">
         <classes>
-            <class name="tests.producttests.ProductsTest" />
+            <class name="tests.producttests.createProductTest" />
         </classes>
     </test>
 
