@@ -101,7 +101,7 @@ public class Products {
         return jsonObject.get("id").getAsInt();
     }
 
-    public static void updateProductTitle(String id, String title, String token){
+    public static void updateProductTitle(int id, String title, String token){
 
         JsonObject updateProductJSON = new JsonObject();
 

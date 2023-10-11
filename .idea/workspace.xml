@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8bbf471a-6d95-4c51-8cc7-08b9f5a1c3ef" name="Changes" comment="Authorization header in product methods">
+    <list default="true" id="8bbf471a-6d95-4c51-8cc7-08b9f5a1c3ef" name="Changes" comment="createProductTest">
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/producttests/UpdateProductTitleTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/methods/products/ProductTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/products/ProductTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/methods/products/Products.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/products/Products.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/producttests/ProductsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/producttests/ProductsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/producttests/createProductTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/producttests/CreateProductTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/producttests/suite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/producttests/suite.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +66,7 @@
       <recent name="tests" />
     </key>
   </component>
-  <component name="RunManager" selected="Maven.restassured-apitests-demo [test]">
+  <component name="RunManager" selected="TestNG.UpdateProductTitleTest.Test">
     <configuration name="restassured-apitests-demo [test]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -113,12 +114,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UpdateProductTitleTest.Test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssured-apitests-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.producttests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.producttests" />
+      <option name="MAIN_CLASS_NAME" value="tests.producttests.UpdateProductTitleTest" />
+      <option name="METHOD_NAME" value="Test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Maven.restassured-apitests-demo [test]" />
+      <item itemvalue="TestNG.UpdateProductTitleTest.Test" />
       <item itemvalue="TestNG.C:/Users/jkrolikowski/Desktop/rest-assured/RestAssured-apitests-demo/RestAssured-apitests-demo/src/test/java/tests/producttests/suite.xml" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.UpdateProductTitleTest.Test" />
         <item itemvalue="TestNG.C:/Users/jkrolikowski/Desktop/rest-assured/RestAssured-apitests-demo/RestAssured-apitests-demo/src/test/java/tests/producttests/suite.xml" />
       </list>
     </recent_temporary>
@@ -202,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697030405930</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="createProductTest">
+      <created>1697033288550</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1697033288550</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -238,6 +266,7 @@
     <MESSAGE value="productTO" />
     <MESSAGE value="Products methods added" />
     <MESSAGE value="Authorization header in product methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="Authorization header in product methods" />
+    <MESSAGE value="createProductTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="createProductTest" />
   </component>
 </project>

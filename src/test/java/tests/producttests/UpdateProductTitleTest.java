@@ -1,8 +1,4 @@
 package tests.producttests;
-/*
-@Author: jkrolikowski
-@Date: 10/10/2023
-*/
 
 import io.restassured.RestAssured;
 import methods.authorization.Authorization;
@@ -15,11 +11,27 @@ import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class createProductTest {
+/*
+@Author: jkrolikowski
+@Date: 10/11/2023
+
+Test Case:
+1. Authorize
+2. Create product and save id from response
+3. Update project change title
+4. Get project and check title
+Expected: Title was correctly changed
+5. Delete created product
+
+*/
+
+public class UpdateProductTitleTest {
 
     protected String baseURL = System.getProperty("baseURL","https://api.escuelajs.co/");
     protected String email = System.getProperty("email","john@mail.com");
     protected String password = System.getProperty("password","changeme");
+
+    protected String changedTitle = System.getProperty("title","SomeTitle");
 
     private AuthorizationTO authTO;
     private ProductTO productTO;
@@ -33,6 +45,7 @@ public class createProductTest {
     void BeforeTest(){
         buildTransferObjects();
     }
+
     @Test
     void Test(){
 
@@ -42,9 +55,11 @@ public class createProductTest {
 
         productTO.setId(createdProductId);
 
+        Products.updateProductTitle(productTO.getId(), changedTitle, authToken);
+
         ProductTO fromRequestTO = Products.getSingleProduct(productTO.getId(), authToken);
 
-        Assert.assertEquals(productTO, fromRequestTO);
+        Assert.assertEquals(fromRequestTO.getTitle(), changedTitle);
 
         Products.deleteProduct(productTO.getId(), authToken);
     }
