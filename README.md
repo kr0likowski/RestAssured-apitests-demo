@@ -12,3 +12,7 @@ Test classes cointains only logic behind the methods, with the test cases in com
 
 Use mvn test or run testng suite.xml in src/test/java/tests/producttests
 
+# Used technologies
+
+TestNG, RestAssured, Log4j, Lombok, Gson
+
