@@ -10,6 +10,7 @@ import com.google.gson.JsonParser;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
+import utils.JsonUtils;
 
 import java.util.Arrays;
 
@@ -43,11 +44,7 @@ public class Products {
 
         JsonArray imagesArray = jsonObject.getAsJsonArray("images");
 
-        // Convert the JsonArray to a string array
-        String[] images = new String[imagesArray.size()];
-        for (int i = 0; i < imagesArray.size(); i++) {
-            images[i] = imagesArray.get(i).getAsString();
-        }
+        String[] images = JsonUtils.createStringArrayFromJsonArray(imagesArray);
 
         // Get categoryId
         int categoryId = jsonObject.getAsJsonObject("category").get("id").getAsInt();
@@ -68,11 +65,7 @@ public class Products {
 
         JsonObject productJSON = new JsonObject();
 
-        // Create a JsonArray to represent the array of strings for images
-        JsonArray imgUrlsArray = new JsonArray();
-        for (String imgUrl : productTO.imgUrl) {
-            imgUrlsArray.add(imgUrl);
-        }
+        JsonArray imgUrlsArray = JsonUtils.createJsonArrayFromStringArray(productTO.getImgUrl());
 
         productJSON.addProperty("title",productTO.title);
         productJSON.addProperty("price",productTO.price);

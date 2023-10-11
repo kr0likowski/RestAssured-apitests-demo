@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8bbf471a-6d95-4c51-8cc7-08b9f5a1c3ef" name="Changes" comment="run configuration" />
+    <list default="true" id="8bbf471a-6d95-4c51-8cc7-08b9f5a1c3ef" name="Changes" comment="testng run configuration">
+      <change afterPath="$PROJECT_DIR$/src/test/java/utils/JsonUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/methods/products/Products.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/products/Products.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -215,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697045228887</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="testng run configuration">
+      <created>1697045292289</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1697045292289</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -270,6 +281,7 @@
     <MESSAGE value="createProductTest with test case" />
     <MESSAGE value="Delete product test" />
     <MESSAGE value="run configuration" />
-    <option name="LAST_COMMIT_MESSAGE" value="run configuration" />
+    <MESSAGE value="testng run configuration" />
+    <option name="LAST_COMMIT_MESSAGE" value="testng run configuration" />
   </component>
 </project>
