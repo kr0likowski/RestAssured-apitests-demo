@@ -39,6 +39,7 @@ public class Products {
                     .header("Authorization", "Bearer " + token)
                     .get("api/v1/products/"+id);
 
+        // Assertions
         response.then()
                 .body("id", not(emptyOrNullString()))
                 .statusCode(200);
@@ -90,6 +91,7 @@ public class Products {
                 .when()
                     .post("api/v1/products/");
 
+        // Assertions
         response
                 .then()
                 .statusCode(201)
@@ -119,6 +121,7 @@ public class Products {
                 .when()
                 .put("api/v1/products/"+id);
 
+        // Assertions
         response
                 .then()
                 .statusCode(200);
@@ -136,6 +139,7 @@ public class Products {
                     .when()
                 .delete("api/v1/products/"+id);
 
+        // Assertions
         response
                 .then()
                 .statusCode(200);
@@ -150,6 +154,7 @@ public class Products {
                 .header("Authorization", "Bearer " + token)
                 .get("api/v1/products/"+id);
 
+        // Assertions
         response.then()
                 // Assert there will be error as expected
                 .statusCode(400);
