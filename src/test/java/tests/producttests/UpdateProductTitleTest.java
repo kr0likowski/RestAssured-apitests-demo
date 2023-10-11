@@ -27,6 +27,7 @@ Expected: Title was correctly changed
 
 public class UpdateProductTitleTest {
 
+    // Parameters of tests, might be sent in mvn (-Dparameter=xxx)
     protected String baseURL = System.getProperty("baseURL","https://api.escuelajs.co/");
     protected String email = System.getProperty("email","john@mail.com");
     protected String password = System.getProperty("password","changeme");
