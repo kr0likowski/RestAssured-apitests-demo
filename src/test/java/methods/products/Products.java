@@ -13,18 +13,20 @@ import static org.hamcrest.Matchers.*;
 
 public class Products {
 
-    public static void getAllProducts(){
+    public static void getAllProducts(String token){
         Response response = RestAssured
                 .given()
+                    .header("Authorization", "Bearer " + token)
                     .get("api/v1/products");
 
                 response.then().statusCode(200);
 
 
     }
-    public static void getSingleProduct(String id){
+    public static void getSingleProduct(String id, String token){
         Response response = RestAssured
                 .given()
+                    .header("Authorization", "Bearer " + token)
                     .get("api/v1/products/"+id);
 
         response.then().statusCode(200);
