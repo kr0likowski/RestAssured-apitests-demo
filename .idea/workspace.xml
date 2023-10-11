@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8bbf471a-6d95-4c51-8cc7-08b9f5a1c3ef" name="Changes" comment="Project init">
+    <list default="true" id="8bbf471a-6d95-4c51-8cc7-08b9f5a1c3ef" name="Changes" comment="createProductTest">
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/producttests/UpdateProductTitleTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ProductsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ProductsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/methods/products/Products.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/products/Products.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/producttests/createProductTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/producttests/CreateProductTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/producttests/suite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/producttests/suite.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +27,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
@@ -40,15 +47,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "settings.editor.selected.configurable": "fileTemplates"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/jkrolikowski/Desktop/rest-assured/RestAssured-apitests-demo/RestAssured-apitests-demo/src/test/java/tests&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/jkrolikowski/Desktop/rest-assured/RestAssured-apitests-demo/RestAssured-apitests-demo/src/test/java/tests/producttests/suite.xml&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;fileTemplates&quot;
   }
-}]]></component>
-  <component name="RunManager">
-    <configuration name="restassured-apitests-demo [mvn,test]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="tests.producttests" />
+      <recent name="tests" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.UpdateProductTitleTest.Test">
+    <configuration name="restassured-apitests-demo [test]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
         <option name="myRunnerSettings" />
@@ -59,7 +78,6 @@
             </option>
             <option name="goals">
               <list>
-                <option value="mvn" />
                 <option value="test" />
               </list>
             </option>
@@ -74,6 +92,57 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
+    <configuration name="C:/Users/jkrolikowski/Desktop/rest-assured/RestAssured-apitests-demo/RestAssured-apitests-demo/src/test/java/tests/producttests/suite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssured-apitests-demo" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/tests/producttests/suite.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UpdateProductTitleTest.Test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssured-apitests-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.producttests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.producttests" />
+      <option name="MAIN_CLASS_NAME" value="tests.producttests.UpdateProductTitleTest" />
+      <option name="METHOD_NAME" value="Test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Maven.restassured-apitests-demo [test]" />
+      <item itemvalue="TestNG.UpdateProductTitleTest.Test" />
+      <item itemvalue="TestNG.C:/Users/jkrolikowski/Desktop/rest-assured/RestAssured-apitests-demo/RestAssured-apitests-demo/src/test/java/tests/producttests/suite.xml" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.UpdateProductTitleTest.Test" />
+        <item itemvalue="TestNG.C:/Users/jkrolikowski/Desktop/rest-assured/RestAssured-apitests-demo/RestAssured-apitests-demo/src/test/java/tests/producttests/suite.xml" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -91,7 +160,77 @@
       <option name="project" value="LOCAL" />
       <updated>1696962327784</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="TestNG and RestAssured added">
+      <created>1696962795034</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1696962795034</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Method structure and lombok added">
+      <created>1696963187927</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1696963187927</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Transfer objects and method classes moved to test package">
+      <created>1696963710106</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1696963710106</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Basic functionality of authorization">
+      <created>1696964875876</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1696964875876</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Authorization added to test">
+      <created>1696967328444</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1696967328444</updated>
+    </task>
+    <task id="LOCAL-00007" summary="productTO">
+      <created>1696967876294</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1696967876294</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Products methods added">
+      <created>1696970049605</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1696970049605</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Authorization header in product methods">
+      <created>1697030375234</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1697030375234</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Authorization header in product methods">
+      <created>1697030405930</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1697030405930</updated>
+    </task>
+    <task id="LOCAL-00011" summary="createProductTest">
+      <created>1697033288550</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1697033288550</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -99,7 +238,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="ProductsTests" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -107,6 +258,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Project init" />
-    <option name="LAST_COMMIT_MESSAGE" value="Project init" />
+    <MESSAGE value="TestNG and RestAssured added" />
+    <MESSAGE value="Method structure and lombok added" />
+    <MESSAGE value="Transfer objects and method classes moved to test package" />
+    <MESSAGE value="Basic functionality of authorization" />
+    <MESSAGE value="Authorization added to test" />
+    <MESSAGE value="productTO" />
+    <MESSAGE value="Products methods added" />
+    <MESSAGE value="Authorization header in product methods" />
+    <MESSAGE value="createProductTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="createProductTest" />
   </component>
 </project>
