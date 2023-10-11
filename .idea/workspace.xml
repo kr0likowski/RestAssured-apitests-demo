@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8bbf471a-6d95-4c51-8cc7-08b9f5a1c3ef" name="Changes" comment="Delete product test" />
+    <list default="true" id="8bbf471a-6d95-4c51-8cc7-08b9f5a1c3ef" name="Changes" comment="run configuration" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,28 +61,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Maven.restassured-apitests-demo [test]">
-    <configuration name="C:/Users/jkrolikowski/Desktop/rest-assured/RestAssured-apitests-demo/RestAssured-apitests-demo/src/test/java/tests/producttests/suite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="RestAssured-apitests-demo" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/tests/producttests/suite.xml" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="DeletingProductTest.Test" type="TestNG" nameIsGenerated="true">
       <module name="RestAssured-apitests-demo" />
       <extension name="coverage">
@@ -123,12 +101,10 @@
       <item itemvalue="Maven.restassured-apitests-demo [test]" />
       <item itemvalue="TestNG.DeletingProductTest.Test" />
       <item itemvalue="TestNG.UpdateProductTitleTest.Test" />
-      <item itemvalue="TestNG.C:/Users/jkrolikowski/Desktop/rest-assured/RestAssured-apitests-demo/RestAssured-apitests-demo/src/test/java/tests/producttests/suite.xml" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.UpdateProductTitleTest.Test" />
-        <item itemvalue="TestNG.C:/Users/jkrolikowski/Desktop/rest-assured/RestAssured-apitests-demo/RestAssured-apitests-demo/src/test/java/tests/producttests/suite.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -232,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697044088879</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="run configuration">
+      <created>1697045228887</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1697045228887</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -286,6 +269,7 @@
     <MESSAGE value="createProductTest" />
     <MESSAGE value="createProductTest with test case" />
     <MESSAGE value="Delete product test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Delete product test" />
+    <MESSAGE value="run configuration" />
+    <option name="LAST_COMMIT_MESSAGE" value="run configuration" />
   </component>
 </project>
