@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8bbf471a-6d95-4c51-8cc7-08b9f5a1c3ef" name="Changes" comment="Delete product test">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/producttests/suite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/producttests/suite.xml" afterDir="false" />
-    </list>
+    <list default="true" id="8bbf471a-6d95-4c51-8cc7-08b9f5a1c3ef" name="Changes" comment="Delete product test" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,32 +60,7 @@
       <recent name="tests" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/jkrolikowski/Desktop/rest-assured/RestAssured-apitests-demo/RestAssured-apitests-demo/src/test/java/tests/producttests/suite.xml">
-    <configuration name="restassured-apitests-demo [test]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
-      <MavenSettings>
-        <option name="myGeneralSettings" />
-        <option name="myRunnerSettings" />
-        <option name="myRunnerParameters">
-          <MavenRunnerParameters>
-            <option name="profiles">
-              <set />
-            </option>
-            <option name="goals">
-              <list>
-                <option value="test" />
-              </list>
-            </option>
-            <option name="pomFileName" />
-            <option name="profilesMap">
-              <map />
-            </option>
-            <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="$PROJECT_DIR$" />
-          </MavenRunnerParameters>
-        </option>
-      </MavenSettings>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Maven.restassured-apitests-demo [test]">
     <configuration name="C:/Users/jkrolikowski/Desktop/rest-assured/RestAssured-apitests-demo/RestAssured-apitests-demo/src/test/java/tests/producttests/suite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestAssured-apitests-demo" />
       <shortenClasspath name="NONE" />
@@ -111,7 +83,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeletingProductTest.Test" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DeletingProductTest.Test" type="TestNG" nameIsGenerated="true">
       <module name="RestAssured-apitests-demo" />
       <extension name="coverage">
         <pattern>
@@ -155,7 +127,6 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.DeletingProductTest.Test" />
         <item itemvalue="TestNG.UpdateProductTitleTest.Test" />
         <item itemvalue="TestNG.C:/Users/jkrolikowski/Desktop/rest-assured/RestAssured-apitests-demo/RestAssured-apitests-demo/src/test/java/tests/producttests/suite.xml" />
       </list>
@@ -282,6 +253,21 @@
                 </map>
               </option>
             </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="ProductsTests" />
+                </option>
+              </RecentGroup>
+            </list>
           </value>
         </entry>
       </map>
